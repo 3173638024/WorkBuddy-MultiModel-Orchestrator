@@ -6,6 +6,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![WorkBuddy Skill](https://img.shields.io/badge/WorkBuddy-Skill-blue)](https://www.codebuddy.cn)
 
+<p align="center">
+  <img src="images/hero-banner.png" alt="智囊团 - 多模型协作" width="720">
+</p>
+
 ---
 
 ## 💡 核心哲学
@@ -27,6 +31,8 @@
 | **产出** | 结构化报告 | 结构化报告 | 代码文件 |
 
 ### 模型分工
+
+![三级模型分工](images/model-tiers.svg)
 
 | Tier | 角色 | 代表模型 | 负责 |
 |------|------|----------|------|
@@ -61,6 +67,8 @@ pip install requests  # 轻装智囊
 ---
 
 ## 特性
+
+![工作流](images/workflow.svg)
 
 - ⚡ **真并行** — ThreadPoolExecutor
 - 🔄 **自动回退** — 崩了换备胎
